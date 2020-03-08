@@ -1,0 +1,22 @@
+{
+  "exp_name": "VesselNet",
+  "model_name": "Att_Dense",
+  "epochs": 25,
+  "batch_size": 25,
+  "patch_height": 96,
+  "patch_width": 96,
+  "subsample": 500,
+  "total_train": 20,
+  "total_val": 20,
+  "train_datatype": "png",
+  "train_gt_datatype": "png",
+  "val_datatype": "png",
+  "val_gt_datatype": "png",
+  "test_datatype": "png",
+  "test_gt_datatype": "png",
+  "height": 584,
+  "width": 565,
+  "stride_height": 5,
+  "stride_width": 5,
+  "seg_num": 1
+}
